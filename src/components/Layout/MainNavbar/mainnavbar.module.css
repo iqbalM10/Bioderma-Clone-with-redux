@@ -1,0 +1,103 @@
+.MainNavbar{
+    display: flex;
+    /* width: 1300px; */
+    height: 60px;
+    padding: 0px 46px 0px 44px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ECEFF2;
+background: #FFF; 
+position: relative;
+}
+.MainNavbarList{
+    position: relative;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+height: 60px;
+padding: 12px 15px;
+align-items: center;
+gap: 10px;
+    
+}
+.li{
+    list-style: none;
+    margin-left:25px;
+    
+}
+
+.li a{
+    color: #444A51;
+/* font-family: Poppins; */
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 17.5px; /* 134.615% */
+}
+
+
+.megaBox{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 300px;
+    padding: 0 15px;
+ opacity: 0;
+    visibility: hidden;  
+z-index: 0;
+    
+}
+
+.Mainli{
+    list-style: none;
+   margin-top: 20px;
+}
+
+ .li:hover .megaBox{
+    visibility: visible;
+    opacity: 1;
+    z-index: 5;
+    top: 54px;
+    transition: all 0.7s;
+} 
+
+.descArea{
+    display: flex;
+    gap: 10px;
+}
+
+.descTitle{
+    color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px; /* 150% */
+}
+
+.descInfo{
+    color: #4B4B4B;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 21px; /* 150% */
+}
+.MainList{
+    background-color: #fff;
+    border: 10px;
+    padding: 15px 20px;
+}
+
+.link{
+    margin-top: 20px;
+}
+
+@media (max-width:1024px) {
+   .MainNavbar{
+    display: none;
+   }
+}

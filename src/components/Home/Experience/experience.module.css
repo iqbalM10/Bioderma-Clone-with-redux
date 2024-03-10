@@ -1,0 +1,43 @@
+.Experience{
+    margin-top: 50px;
+    width: 100%;
+height: 110px;
+flex-shrink: 0;
+background: #FFC52D;
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.experienceArea{
+    display: flex;
+gap: 5px;
+align-items: center;
+padding: 0 20px;
+}
+.iconArea{
+    width: 86px;
+height: 110px;
+flex-shrink: 0;
+}
+.iconArea img{
+    width: 100%;
+    height: 100%;
+}
+
+.desc{
+    color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+@media (max-width:768px) {
+    .Experience{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}

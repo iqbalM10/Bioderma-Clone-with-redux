@@ -1,0 +1,77 @@
+.MegaDiscount{
+    margin-top: 80px;
+    padding: 0 60px;
+}
+.discount{
+    height: 300px;
+    border-radius: 10px;
+    background-image: url('https://s3-alpha-sig.figma.com/img/9116/dafe/433bd9f83161838ae076198951235354?Expires=1702252800&Signature=Dq~pU6smtlfTYJzPuvnn7J~bKbXZb8kRognS7q-nh-Zy8RzFDvbNIaRjwFQ~bMl0qalyuvf5K0J9POQfRmCaiLS5U5f0fE4V0DIHmImlGeXyRl5QkKbEYG-jO8WYSLOZMtI54ZQ2reZ3LLeawlZuKypbDBJW~PS5esgHUb56nt5yiLuMXrBv44zfhOYoijaov~x1wz3EBGG~4SiEwuPjWnq2F0SZ44XU9HMgcHG5L1SZQm7HCxO9lh4AywaqKhQTCo057PRFauoxCTtvBDsKuih7tvrXwF7CtaUfxMZblQzVR1eaBnRmLRq6j72viO8DZ-v8frPyelm6zuTJCaf8ng__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  
+   
+}
+.MegaTitles{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-left: 40px;
+    margin-top: 15px;
+  
+}
+.MegaTitles h1{
+    color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.MegaTitles h1::after{
+    content: "";
+    width: 100px;
+height: 2px;
+flex-shrink: 0;
+display: flex;
+background: #FFF;
+
+}
+.MegaTitles h3{
+    color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.MegaTitles p{
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 131.25% */
+}
+
+.MegaTitles span{
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px; /* 116.667% */
+}
+
+@media (max-width:768px) {
+    .discount{
+        height: 320px;
+    }
+    .MegaTitles h1{
+        font-size: 21px;
+    }
+    .MegaTitles h3{
+font-size: 21px;
+    }
+    .MegaTitles span{
+        font-size: 16px;
+    }
+}

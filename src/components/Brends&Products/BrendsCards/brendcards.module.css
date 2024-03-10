@@ -1,0 +1,73 @@
+.BrendsCard
+{
+    width: 278px;
+    height: 100%;
+    flex-shrink: 0;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.imageArea{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+.img{
+
+    height: 278px;
+}
+.textArea{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title{
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+}
+
+.brends{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 116.667% */
+}
+
+.brendsPrice{
+    color: #444A51;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 116.667% */
+}
+
+.BrendsToCards{
+    display: flex;
+    width: 278px;
+    height: 45px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+border: 1px solid #009BC7;
+background: #FFF;
+}
+
+.AddToCards{
+    color: #009BC7;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 222.222% */
+}
+.iconShop{
+    display: flex;
+
+    color: #009BC7;
+}
